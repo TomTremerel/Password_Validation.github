@@ -83,7 +83,7 @@ ul {
 
 #iconPassword i {
     margin-right: 5px;
-    color: #666; /* Couleur du gris pour les icônes */
+    color: #666;
 }
 
 #iconPassword .feather-eye-off{
@@ -112,7 +112,7 @@ ul {
 
 #iconConfirmPassword i {
     margin-right: 5px;
-    color: #666; /* Couleur du gris pour les icônes */
+    color: #666; 
 }
 
 #iconConfirmPassword .feather-eye-off{
