@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     p1.addEventListener('input', function () {
-        // Vérifiez la longueur du mot de passe
+    
         updateStyle(t1, p1.value.length >= 8);
 
         updateStyle(t2, /[A-Z]/.test(p1.value));
