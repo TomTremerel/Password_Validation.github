@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Styles.css">
+    <script src="Script.js" defer></script>
+</head>
+<body>  
+
+        <div id="titre">
+            <h1> Validation Form</h1>
+            
+        </div>    
+
+        <div id="containeurAll">
+            <h3>Sign Up !</h3>
+            
+            <div id="email">
+                <p id="t5">Email</p>
+                <input id="p3" type="email">
+            </div>
+
+            <div id="password" >
+                <p>Password</p>
+                <input id="p1" type="password">
+                <div id="iconPassword">
+                    <i data-feather="eye"></i>
+                    <i data-feather="eye-off"></i>
+                </div>
+
+            </div>
+
+
+            
+
+            <div id="precision">
+                <p>Your password has to admit at least : </p>
+                 <ul>
+                    <li id="t1">8 characters</li>
+                    <li id="t2">One uppercase letter</li>
+                    <li id="t3">One number</li>
+                    <li id="t4">One special character (?,.!;)</li>
+                </ul>
+            </div>
+
+            <div id="confirmePassword">
+                <p>Confirm Password</p>
+                <input id="p2" type="password">
+                <div id="iconConfirmPassword">
+                    <i data-feather="eye"></i>
+                    <i data-feather="eye-off"></i>
+                </div>
+
+            </div>
+
+            <button id="btnValid"> Sign Up Now </button>
+        </div>    
+
+        <script src="https://unpkg.com/feather-icons"></script>
+        <script>
+            feather.replace();
+        </script>
+
+        <!-- Popup -->
+
+        <div class="popupBackground">
+            <div class="popup">
+                <div>Congratulation, your account is created !</div>
+                <img src="checkIcon.png" alt="checkIcon">
+            </div>
+        </div>
+</body>
+</html>

@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color:#2F4F4F ;
+}
+
+#titre {
+    text-align: center;
+    color:  white;
+    padding: 10px;
+    font-size: 50px
+}
+
+#containeurAll {
+    max-width: 600px; 
+    margin: 0 auto; 
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(1, 1, 1, 1); 
+    color:black;
+    font-weight: bold;
+    border-radius: 30px;
+}
+
+h3 {
+    text-align: center;
+}
+
+input,
+button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 2px groove black;
+}
+
+button {
+    background-color: white;
+    color: #000000;
+    cursor: pointer;
+    border-radius: 20px;
+    border: 2px groove black;
+    width: 30%;
+    transition: 0.5s ;
+}
+
+button:hover {
+    background-color: #2F4F4F;
+    color: white;
+}
+
+ul {
+    list-style-type :circle;
+    padding: 0;
+    margin-left: 35px;
+    
+}
+
+#precision {
+    margin-bottom: 10px;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 10px;
+}
+
+#confirmePassword{
+    margin-top: 25px;
+}
+
+#password {
+    position: relative;
+}
+
+#iconPassword {
+    position: absolute;
+    right: 10px;
+    top: 75%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+#iconPassword i {
+    margin-right: 5px;
+    color: #666; /* Couleur du gris pour les icônes */
+}
+
+#iconPassword .feather-eye-off{
+    display: none;
+}
+
+#iconPasswordb  :hover{
+    color: #2F4F4F;
+}
+
+#confirmePassword {
+    position: relative;
+}
+
+#iconConfirmPassword {
+    position: absolute;
+    right: 10px;
+    top: 75%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+#iconConfirmPassword:hover{
+    color: #2F4F4F;
+}
+
+#iconConfirmPassword i {
+    margin-right: 5px;
+    color: #666; /* Couleur du gris pour les icônes */
+}
+
+#iconConfirmPassword .feather-eye-off{
+    display: none;
+}
+
+.popup {
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 30px;
+    
+}
+.popupBackground {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.active {
+    display: flex !important;
+}
+
+.popup p {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.popup div {
+    font-size: 25px;
+    padding : 5px;
+    padding-bottom: 15px;
+}
